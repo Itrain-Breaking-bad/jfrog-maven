@@ -1,5 +1,5 @@
 node {
-    def server = Artifactory.server('anoop.jfrog.io')
+    def server = Artifactory.server('sanoop.jfrog.io')
     def buildInfo = Artifactory.newBuildInfo()
     def rtMaven = Artifactory.newMavenBuild()
     
