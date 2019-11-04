@@ -9,7 +9,7 @@ node {
     }
  
     stage ('Code Build') {
-        rtMaven.tool = 'Maven-3.6.1' // Tool name from Jenkins configuration
+        rtMaven.tool = 'Maven3.6.1' // Tool name from Jenkins configuration
         rtMaven.run pom: 'pom.xml', goals: 'clean compile'
     }
     
